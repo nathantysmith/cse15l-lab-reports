@@ -43,7 +43,23 @@ This was the code that caused the bug:
 ```
 static int[] reversed(int[] arr){
   int[] newArray = new int[arr.length];
-  for(int i = 0)
+  for(int i = 0; i < arr.length; i++){
+    arr[i] = newArray[arr.length - i - 1];
+  }
+  return arr;
+}
+```
+and this is the code that fixed the bug:
+```
+static int[] reversed(int[] arr){
+  int[] newArray = new int[arr.length];
+  for(int i = 0; i < arr.length; i++){
+    newArray[i] = arr[i];
+  }
+  for(int i = 0; i < arr.length; i++){
+    arr[i] = newArray[arr.length - i - 1];
+  }
+  return arr;
 }
 ```
 

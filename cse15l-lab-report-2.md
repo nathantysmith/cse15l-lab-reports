@@ -64,3 +64,5 @@ static int[] reversed(int[] arr){
 ```
 
 ## Part 3
+
+Something I didn't know before lab 3 was that it's possible to give commands to a web server using commands in the URL. For example the method we used in class was adding and incrementing a num variable on an online server solely through the URL.

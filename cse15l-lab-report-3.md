@@ -46,21 +46,27 @@ written_2/non-fiction/OUP/Abernathy/ch1.txt-Yet with the signing of the agreemen
 written_2/non-fiction/OUP/Abernathy/ch1.txt:A Dying Industry—or Not?
 ```
   
-## Command Line Option: ```grep - <<String>> <<File>> ```
+## Command Line Option: ```grep -n <<String>> <<File>> ```
   Example 1:
 ```
-  
+$ grep -n "Fifty" written_2/non-fiction/OUP/Abernathy/*.txt
+written_2/non-fiction/OUP/Abernathy/ch1.txt:6:Fifty years later, it is hard to imagine a retailer—be it a high-end department store, mass merchandiser, or catalog service—limiting an individual customer’s clothing purchase. Retailers collect detailed point-of-sales information that reflects the real-time demand for goods by consumers. Through new computer systems, they share this information with suppliers who, in turn, can ship orders within days to automated distribution centers. The contemporary equivalent of Bond Stores now has a much better chance of avoiding stock-outs of popular items and the inventory gluts that lead to costly markdowns. By the same token, the overall risk associated with fickle consumers, numerous selling seasons, and segmented markets—along with fierce overseas competition—has currently made this a tough arena for American retailers and manufacturers.
 ```
   Example 2:
 ```
-  
+$ grep -n "Dying" written_2/non-fiction/OUP/Abernathy/*.txt
+written_2/non-fiction/OUP/Abernathy/ch1.txt:22:A Dying Industry—or Not?
 ```
 ## Command Line Option: ```grep - <<String>> <<File>> ```
   Example 1:
 ```
-  
+$ grep -h "Fifty" written_2/non-fiction/OUP/Abernathy/*.txt
+Fifty years later, it is hard to imagine a retailer—be it a high-end department store, mass merchandiser, or catalog service—limiting an individual customer’s clothing purchase. Retailers collect detailed point-of-sales information that reflects the real-time demand for goods by consumers. Through new computer systems, they share this information with 
+suppliers who, in turn, can ship orders within days to automated distribution centers. The contemporary equivalent of Bond Stores now has a much better chance of avoiding stock-outs of popular items and the inventory gluts that lead to costly markdowns. By the same token, the overall risk associated with fickle consumers, numerous selling seasons, and 
+segmented markets—along with fierce overseas competition—has currently made this a tough arena for American retailers and manufacturers.
 ```
   Example 2:
 ```
-  
+$ grep -h "Dying" written_2/non-fiction/OUP/Abernathy/*.txt
+A Dying Industry—or Not?
 ```

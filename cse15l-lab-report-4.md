@@ -6,7 +6,7 @@ First thing you need to do is log into your iegn6 account, I did this by typing 
 
 
 ## Step 5
-
+Then I cloned the directory onto the account by first copying the ssh version of the url from the forked repository on github and then typing ```git clone <ctrl>c``` to input this to the terminal: 
 ![Image](Step5.JPG)
 
 ## Step 6

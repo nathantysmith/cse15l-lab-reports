@@ -10,6 +10,7 @@ Then I cloned the directory onto the account by first copying the ssh version of
 ![Image](Step5.JPG)
 
 ## Step 6
+Here, although unnecessary, I used ```ls``` to confirm that the directory lab7 had been cloned, then I used ```cd lab7``` to change my directory before copy pasting the javac and java commands for junit testing, inputting: ```<ctrl>c``` then ```<ctrl>c L<tab>Tests``` to run the tests.
 ![Image](Step6.JPG)
 
 ## Step 7

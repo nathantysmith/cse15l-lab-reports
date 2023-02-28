@@ -1,9 +1,12 @@
 # Speed Challenge
 
 ## Step 4
+First thing you need to do is log into your iegn6 account, I did this by typing ```cs15lwi23awj@ieng6.ucsd.edu```, if you have created a ssh key already then that will be all that is needed, otherwise you will need to put in your password as well.
 ![Image](Step4.JPG)
 
+
 ## Step 5
+
 ![Image](Step5.JPG)
 
 ## Step 6

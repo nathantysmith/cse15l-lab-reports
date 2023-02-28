@@ -25,8 +25,10 @@ From there I press ```<down>``` and ```<right>``` until I get down to the error 
 
 ![Image](Step7.2.JPG)
 
-## Step 8
+Once these changes have been done I pressed ```<ctrl>o <enter> <ctrl>x``` to save the changes and exit the text editor.
 
+## Step 8
+After saving the changes I needed to recompile the java files and rerun the tests, these commands were already in my command history so I reached them by typing ```<up><up><up><enter>``` to compile and ```<up><up><up><enter>``` again to run the tests.
 
 ![Image](Step8.JPG)
 

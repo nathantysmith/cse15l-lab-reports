@@ -12,12 +12,12 @@ Then I cloned the directory onto the account by first copying the ssh version of
 ![Image](Step5.JPG)
 
 ## Step 6
-Here, although unnecessary, I used ```ls``` to confirm that the directory lab7 had been cloned, then I used ```cd lab7``` to change my directory before copy pasting the javac and java commands for junit testing, inputting: ```<ctrl>c``` then ```<ctrl>c L<tab>Tests``` to run the tests.
+Here, although unnecessary, I used ```ls <enter>``` to confirm that the directory lab7 had been cloned, then I used ```cd lab7 <enter>``` to change my directory before copy pasting the javac and java commands for junit testing, inputting: ```<ctrl>c <enter>``` then ```<ctrl>c L<tab>Tests <enter>``` to run the tests.
 
 ![Image](Step6.JPG)
 
 ## Step 7
-Then, seeing that there is an error in the code somewhere, I open the ListExamples file by typing ```nano L<tab>.java``` to open up a text editor in the terminal.
+Then, seeing that there is an error in the code somewhere, I open the ListExamples file by typing ```nano L<tab>.java <enter>``` to open up a text editor in the terminal.
 
 ![Image](Step7.1.JPG)
 
@@ -33,4 +33,6 @@ After saving the changes I needed to recompile the java files and rerun the test
 ![Image](Step8.JPG)
 
 ## Step 9
+Now that the tests can run without failures we want to commit these changes to the github version of this code. This is done by typing ```git add L<tab>.java <enter>``` and then ```git commit -m "Corrected Version" <enter>``` and finally ```git push <enter>```
+
 ![Image](Step9.JPG)

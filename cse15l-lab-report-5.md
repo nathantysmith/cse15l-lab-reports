@@ -1,6 +1,6 @@
 # Researching Commands: grep command
 
-For all of these examples, my knowledge of these commands was a combination of the information on this [website](https://www.geeksforgeeks.org/grep-command-in-unixlinux/) as well as the information available by using the ```grep --help``` command in the terminal.
+For all of these examples, my knowledge of these commands was sourced from the information available by using the ```wc --help``` command in the terminal.
 
 ## Command Line Option:  ```wc -L <<File>> ```
   Example 1:

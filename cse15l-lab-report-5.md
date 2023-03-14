@@ -78,7 +78,7 @@ $ wc -w written_2/non-fiction/OUP/Berk/*.txt
  10158 written_2/non-fiction/OUP/Berk/ch7.txt
  55086 total
 ```
-**What this grep -n command is doing is adding the line number of the found line to the front of the terminal and this can be used to find the specific line within the text file itself, no longer reading from the terminal.**
+**What this wc -w command is doing is isolating the word count of the given file and returning that next to the file name, this makes it extremely easy to check for minimum word counts in papers or other such projects.**
 ## Command Line Option: ```wc -l <<File>> ```
   Example 1:
 ```
@@ -104,4 +104,4 @@ $ wc -l written_2/non-fiction/OUP/Berk/*.txt
    986 total
 
 ```
-**What this grep -h command is doing is removing the directory information from the front of the terminal post and leaving the content of the search, this can make the ```command > file``` functions very useful by excluding the directory information from needlessly being carried into any text proccesses.**
+**What this wc -l command is doing is returning just the line count of the file as opposed to the standard spread of information, the benefits of this is that it is much easier to manipule this simplified ouput and insert it into other methods.**
